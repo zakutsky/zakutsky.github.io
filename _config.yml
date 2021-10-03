@@ -1,0 +1,57 @@
+# Site
+repository: zakutsky/zakutsky.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Михаил Закутский
+title: Java Developer
+email: mzakutski@yandex.ru
+phone: +7 (928) 134-52-59
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username:
+github_username: MaiklZak
+telegram_username: mzakutsky
+# stackoverflow_username: "14928780"
+# facebook_username:
+#instagram_username:
+#linkedin_username:
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+
+  Ключевые навыки:
+    - <mark>Backend:</mark>    Java 8+ / Spring (MVC, Security, Data, Boot) / JPA (Hibernate) / REST / SQL / Git / Maven / JDBC / Servlets / Apache Tomcat / Thymeleaf / JUnit / Mockito / Selenium
+    - <mark>DataBase:</mark>    PostgreSQL / MySQL / H2 / HSQLDB / MongoDB
+    - <mark>Frontend:</mark>     HTML, CSS / Bootstrap / jQuery / AJAX
+
+  Личные качества:
+   - Аналитический склад ума
+   - Желание работать и развиваться
+   - Внимательность
+   - Стрессоустойчивость
+   - Инициативность
+   - Целеустремлённость
+   - Исполнительность
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag

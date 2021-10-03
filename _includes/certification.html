@@ -1,0 +1,6 @@
+<div class="container more-container">
+  <h3>{{ site.certification_title | default: "Сертификаты" }}</h3>
+  {% for certification in site.data.certification %}
+  {% include {{ certification.layout | default: 'left' | append: ".html" }} item=certification %}
+  {% endfor %}
+</div>
