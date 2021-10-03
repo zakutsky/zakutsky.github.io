@@ -4,15 +4,18 @@
   dates: Май 2021 - Август 2021
 
 - layout: left
-  name: Менеджер калорий
-  link: github.com/MaiklZak/bookShop
+  name: Интернет магазин книг
   github: MaiklZak/bookShop
   description: | # this will include new lines to allow paragraphs
     Разработка интернет магазина. В процессе разработки применялись инструменты и технологии: Spring Boot, Spring Data JPA, Spring Security, JWT, PostgreSQL, Liquibase, Thymeleaf, JQery, AJAX. При тестировании использовались: JUnit5, Mockito, MockMvc, Selenium. Приложение интегрировалось со сторонними сервисами: Google Book API, Twilio, Robokassa
 
-- layout: left
+- layout: top-middle
   company: <a href="//javaops.ru/view/topjava" target="_blank">TopJava (Стажировка Spring 5/JPA Enterprise)</a>
   job_title: Java Developer
   dates: Январь 2021 - Май 2021
+
+- layout: left
+  name: Менеджер калорий
+  github: MaiklZak/topjava
   description: | # this will include new lines to allow paragraphs
     Участие в разработке Spring/JPA Enterprise приложения c авторизацией и правами доступа на основе ролей на стеке Maven/ Spring MVC/ Security/ REST(Jackson)/ Java 15: - реализация сохранения в базы Postgres и HSQLDB на основе Spring JDBC, JPA(Hibernate) и Spring-Data-JPA - реализация и тестирование REST и AJAX контроллеров - реализация клиента на Bootstrap (css/js), datatables, jQuery + plugins.
