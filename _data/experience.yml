@@ -1,14 +1,13 @@
 - layout: top-middle
-  name: Менеджер калорий
-  link: github.com/artfil/topjava
-  github: artfil/topjava
-
-- layout: left
   company: <a href="//skillbox.ru/course/java-framework-spring/" target="_blank">Skillbox (Курс Java-фреймворк Spring)</a>
   job_title: Java Developer
   dates: Май 2021 - Август 2021
-  description:
-  | # this will include new lines to allow paragraphs
+
+- layout: left
+  name: Менеджер калорий
+  link: github.com/MaiklZak/bookShop
+  github: MaiklZak/bookShop
+  description: | # this will include new lines to allow paragraphs
     Разработка интернет магазина. В процессе разработки применялись инструменты и технологии: Spring Boot, Spring Data JPA, Spring Security, JWT, PostgreSQL, Liquibase, Thymeleaf, JQery, AJAX. При тестировании использовались: JUnit5, Mockito, MockMvc, Selenium. Приложение интегрировалось со сторонними сервисами: Google Book API, Twilio, Robokassa
 
 - layout: left
